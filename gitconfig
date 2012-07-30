@@ -1,0 +1,24 @@
+[color]
+	ui = true
+[user]
+	name = Craig Demyanovich
+	email = cdemyanovich@gmail.com
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	del = !"git status | grep deleted | cut -d' ' -f 5 | xargs git rm 2> /dev/null"
+	up = !"say git up git up git up and jump around"
+	br = branch
+	find = grep --break --heading --line-number --ignore-case
+[gui]
+	fontui = -family \"Lucida Grande\" -size 14 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family Courier -size 12 -weight normal -slant roman -underline 0 -overstrike 0
+[push]
+	default = upstream
+[github]
+	user = cdemyanovich
+[help]
+        autocorrect = -1
+[core]
+        excludesfile = ~/.gitignore
