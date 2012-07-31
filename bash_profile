@@ -12,25 +12,11 @@ export CC=gcc-4.2
 
 export ARCHFLAGS='-arch x86_64'
 
-# export GIT_PS1_SHOWDIRTYSTATE=1
-# export PS1='\[\e[1;33m\]\u@\h \[\e[0;33m\]\w\[\e[0m\]\[\e[32m\]$(__git_ps1 "[%s]")\[\e[0m\]\$ '
-#           cdemyanovich@slapshot ~/work/dls[specs_once]$
-#           \h:\W \u\$
-#           slapshot:dls cdemyanovich$
-
 COLOR_BLUE_BG='\[\e[48;5;63m\]'
 COLOR_RESET='\[\e[0m\]'
 export PS1='\n'${COLOR_BLUE_BG}'\h:\W \u'${COLOR_RESET}'\n\$ '
 
 export P4CONFIG=.p4config
-
-# hitch() {
-#   command hitch "$@"
-#   if [[ -s "$HOME/.hitch_export_authors" ]] ; then source "$HOME/.hitch_export_authors" ; fi
-# }
-# alias unhitch='hitch -u'
-# Uncomment to persist pair info between terminal instances
-# hitch
 
 # NetCredit read-only DB access
 # example: proddb portfolio
