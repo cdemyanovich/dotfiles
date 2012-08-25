@@ -27,6 +27,7 @@ let mapleader=","
 au BufRead,BufNewFile *.rabl setfiletype ruby
 au BufRead,BufNewFile Guardfile setfiletype ruby
 au BufRead,BufNewFile *.hiccup setfiletype clojure
+au BufRead,BufNewFile *.go setfiletype go
 
 " ignore these files and directories in listings
 set wildignore+=tags,*/tmp/*,*/coverage/*
