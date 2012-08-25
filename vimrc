@@ -80,6 +80,7 @@ set scrolloff=3
 let g:Powerline_symbols = 'unicode'
 " let g:Powerline_theme = 'skwp'
 " let g:Powerline_colorscheme = 'skwp'
+call Pl#Theme#RemoveSegment('fugitive:branch')
 
 " Strip trailing whitespace
 function! <SID>StripTrailingWhitespaces()
