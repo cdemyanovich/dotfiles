@@ -7,6 +7,9 @@ export EDITOR='mvim --nofork --nomru -c "au VimLeave * !open -a iTerm"' # or Ter
 export RI='--no-pager --format=ansi'
 export HISTCONTROL=erasedups
 
+# Customize pow domains. See: http://pow.cx/manual.html#section_3.1
+# export POW_DOMAINS=dev,local
+
 # for building Ruby via RVM, since LLVM is now the default compiler on Lion
 export CC=gcc-4.2
 
