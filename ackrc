@@ -25,3 +25,9 @@ clojure=.hiccup
 
 --type-set
 cucumber=.feature
+
+--type-add
+js=.json
+
+--type-set
+config=.cfg
