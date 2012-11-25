@@ -11,7 +11,7 @@ export HISTCONTROL=erasedups
 # export POW_DOMAINS=dev,local
 
 # for building Ruby via RVM, since LLVM is now the default compiler on Lion
-export CC=gcc-4.2
+# export CC=gcc-4.2
 
 export ARCHFLAGS='-arch x86_64'
 
