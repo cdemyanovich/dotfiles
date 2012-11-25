@@ -1,6 +1,6 @@
 " color railscasts
 
-set background=dark
+set background=light
 color solarized
 
 set guifont=Menlo\ Regular:h14
