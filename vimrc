@@ -31,6 +31,8 @@ au BufRead,BufNewFile *.thor setfiletype ruby
 au BufRead,BufNewFile *.hiccup setfiletype clojure
 au BufRead,BufNewFile *.go setfiletype go
 
+let g:sql_type_default = 'postgresql'
+
 " ignore these files and directories in listings
 set wildignore+=tags,*/tmp/*,*/coverage/*
 
