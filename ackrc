@@ -3,6 +3,8 @@
 --ignore-dir=coverage
 --ignore-dir=.idea
 
+--ignore-file=is:tags
+
 --sort-files
 --color
 --follow
