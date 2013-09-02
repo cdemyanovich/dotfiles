@@ -29,7 +29,6 @@ au BufRead,BufNewFile Guardfile setfiletype ruby
 au BufRead,BufNewFile Capfile setfiletype ruby
 au BufRead,BufNewFile *.thor setfiletype ruby
 au BufRead,BufNewFile *.hiccup setfiletype clojure
-au BufRead,BufNewFile *.go setfiletype go
 
 let g:sql_type_default = 'postgresql'
 
