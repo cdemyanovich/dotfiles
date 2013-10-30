@@ -27,18 +27,6 @@ export PS1='\n'${COLOR_BLUE_BG}'\h:\W \u'${COLOR_RESET}'\n\$ '
 
 export P4CONFIG=.p4config
 
-# NetCredit read-only DB access
-# example: proddb portfolio
-proddb () {
-  db=$1_prod_nc
-  host=proddb-$1.netcredit.com
-  if [ "$1" = "account_home" ]; then
-    db=accounthome_prod_nc
-    host=proddb-my.netcredit.com
-  fi
-  psql -h $host -U netcredit__read_only $db
-}
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
