@@ -25,8 +25,6 @@ COLOR_BLUE_BG='\[\e[48;5;63m\]'
 COLOR_RESET='\[\e[0m\]'
 export PS1='\n'${COLOR_BLUE_BG}'\h:\W \u'${COLOR_RESET}'\n\$ '
 
-export P4CONFIG=.p4config
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
