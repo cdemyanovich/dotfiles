@@ -21,15 +21,7 @@ alias sd=script/destroy
 alias cap1="cap _1.4.1_"
 
 # git
-alias gitbr='git branch'
-alias gitdel='git status | grep "deleted:"'
-alias gitlog='git log --name-status'
-alias gitmod='git status | grep "modified:" | third'
-alias giton='git checkout '
 alias gits='git status'
-alias gitsup='git svn rebase'
-alias gitundo='git rm -f --cached'
-alias gg='git gui &'
 
 # IngersollRand XXL project w/ EdgeCase
 alias ircommands='echo irconfig irbuild irswf irlog'
