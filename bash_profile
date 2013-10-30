@@ -1,5 +1,5 @@
-export PATH=~/bin:~/.lein/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/python:/usr/local/share/npm/bin:$PATH
-export CDPATH=.:~:~/work:~/work/netcredit:~/work/leapfrog:~/play:~/learn:~/talks
+export PATH=~/bin:~/.lein/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/python:/usr/local/share/npm/bin:$PATH
+export CDPATH=.:~:~/work:~/work/leapfrog:~/play:~/learn:~/talks
 export NODE_PATH=/usr/local/lib/node_modules
 # export SVN_EDITOR='mate -w'
 # See: https://github.com/b4winckler/macvim/wiki/FAQ
