@@ -20,15 +20,6 @@ alias sg=script/generate
 alias sd=script/destroy
 alias cap1="cap _1.4.1_"
 
-# svn
-function sdm {
-  svn diff $@ | mate
-}
-alias svnst="svn st | grep -v 'X' | grep -v 'Performing' | grep -v '^$'"
-alias svnaddall="svn st | grep '^\?' | tr '^\?' ' ' | sed 's/[\\t]*//' | sed 's/[ ]/\\ /g' | xargs svn add"
-alias siw="svn propedit svn:ignore ."
-# alias sdm="svn diff|mate"
-
 # git
 alias gitbr='git branch'
 alias gitdel='git status | grep "deleted:"'
