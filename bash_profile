@@ -13,9 +13,6 @@ export JASMINE_HOST=http://192.168.50.95
 export SELENIUM_SERVER=http://gw-qafunc:4444/wd/hub
 export JASMINE_BROWSER=firefox
 
-# Customize pow domains. See: http://pow.cx/manual.html#section_3.1
-# export POW_DOMAINS=dev,local
-
 # for building Ruby via RVM, since LLVM is now the default compiler on Lion
 # export CC=gcc-4.2
 
