@@ -1,3 +1,6 @@
+" References
+" http://dougblack.io/words/a-good-vimrc.html
+
 call pathogen#infect()
 call pathogen#helptags()
 
@@ -44,9 +47,11 @@ let g:sql_type_default = 'postgresql'
 " ignore these files and directories in listings
 set wildignore+=tags,*/tmp/*,*/coverage/*
 
-" configure Command-T plugin
-" let g:CommandTMaxHeight=10
-" let g:CommandTMatchWindowReverse=1
+" CtrlP settings
+" let g:ctrlp_match_window = 'bottom,order:ttb'
+" let g:ctrlp_switch_buffer = 0
+" let g:ctrlp_working_path_mode = 0
+let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
 
 " easier navigation between split windows
 nnoremap <c-j> <c-w>j
