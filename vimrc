@@ -47,6 +47,9 @@ let g:sql_type_default = 'postgresql'
 " ignore these files and directories in listings
 set wildignore+=tags,*/tmp/*,*/coverage/*
 
+" Ag (the_silver_searcher) settings
+let g:agprg="ag --column --hidden"
+
 " CtrlP settings
 " let g:ctrlp_match_window = 'bottom,order:ttb'
 " let g:ctrlp_switch_buffer = 0
