@@ -15,7 +15,7 @@
 	fontui = -family \"Lucida Grande\" -size 14 -weight normal -slant roman -underline 0 -overstrike 0
 	fontdiff = -family Courier -size 12 -weight normal -slant roman -underline 0 -overstrike 0
 [push]
-	default = upstream
+	default = current
 [github]
 	user = cdemyanovich
 [help]
@@ -25,4 +25,4 @@
 [branch]
 	autosetuprebase = always
 [rerere]
-	enabled = 1
+	enabled = 0
