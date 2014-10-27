@@ -13,7 +13,7 @@ export SELENIUM_SERVER=http://gw-qafunc:4444/wd/hub
 export JASMINE_BROWSER=firefox
 
 # for building Ruby via rbenv or rvm, since clang is the default compiler
-export CC=gcc-4.2
+# export CC=gcc-4.2
 
 COLOR_BLUE_BG='\[\e[48;5;63m\]'
 COLOR_RESET='\[\e[0m\]'
