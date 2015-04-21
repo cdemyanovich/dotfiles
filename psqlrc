@@ -5,3 +5,4 @@
 \pset pager off
 \timing
 \pset format wrapped
+\pset expanded auto
