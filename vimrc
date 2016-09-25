@@ -17,7 +17,7 @@ set background=dark
 " Access colors present in 256 colorspace
 " See also: https://github.com/chriskempson/base16-iterm2
 let base16colorspace=256
-colorscheme base16-default
+colorscheme base16-default-dark
 
 "" Whitespace
 set nowrap                      " don't wrap lines
