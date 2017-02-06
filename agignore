@@ -1,3 +1,7 @@
-.git
+.git/
 tags
-log/*.log
+/bower_components/
+/log
+/node_modules/
+/tmp
+/vendor
