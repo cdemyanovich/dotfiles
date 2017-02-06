@@ -47,14 +47,23 @@ let g:sql_type_default = 'postgresql'
 " ignore these files and directories in listings
 set wildignore+=tags,*/tmp/*,*/coverage/*
 
-" Ag (the_silver_searcher) settings
-let g:ag_prg="ag --column --hidden"
+" https://github.com/thoughtbot/dotfiles/blob/master/vimrc
+" Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
+if executable('ag')
+  " Use Ag over Grep
+  set grepprg=ag\ --nogroup\ --nocolor
 
-" CtrlP settings
-" let g:ctrlp_match_window = 'bottom,order:ttb'
-" let g:ctrlp_switch_buffer = 0
-" let g:ctrlp_working_path_mode = 0
-let g:ctrlp_user_command = 'ag %s -l --nocolor --hidden -g ""'
+  " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+  let g:ctrlp_user_command = 'ag -Q -l --nocolor --hidden -g "" %s'
+
+  " ag is fast enough that CtrlP doesn't need to cache
+  let g:ctrlp_use_caching = 0
+
+  if !exists(":Ag")
+    command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+    nnoremap \ :Ag<SPACE>
+  endif
+endif
 
 " easier navigation between split windows
 nnoremap <c-j> <c-w>j
