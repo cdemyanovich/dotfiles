@@ -7,8 +7,11 @@ call pathogen#helptags()
 set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
+set ruler
 set showcmd                     " display incomplete commands
 set autowrite                   " Automatically :write before running commands
+set laststatus=2                " always show status line
+
 filetype plugin indent on       " load file type plugins + indentation
 
 " Access colors present in 256 colorspace
@@ -83,11 +86,6 @@ set lazyredraw
 
 set list
 set listchars=tab:▸\ ,eol:¬,trail:-
-
-" always show status line
-set laststatus=2
-set ruler
-set showcmd
 
 " Automatically hide altered buffers when navigating away from them
 set hidden
