@@ -98,12 +98,6 @@ set hidden
 " provide some context when editing
 set scrolloff=3
 
-" Powerline https://github.com/Lokaltog/vim-powerline
-let g:Powerline_symbols = 'unicode'
-" let g:Powerline_theme = 'skwp'
-" let g:Powerline_colorscheme = 'skwp'
-call Pl#Theme#RemoveSegment('fugitive:branch')
-
 " Strip trailing whitespace
 function! <SID>StripTrailingWhitespaces()
     " Preparation: save last search, and cursor position.
