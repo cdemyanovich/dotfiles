@@ -82,7 +82,10 @@ autocmd InsertLeave * :set relativenumber
 
 set cursorline
 set cursorcolumn
-" set colorcolumn=80
+
+" Fix slow scrolling when cursorline is enabled
+" http://eduncan911.com/software/fix-slow-scrolling-in-vim-and-neovim.html
+set lazyredraw
 
 set list
 set listchars=tab:▸\ ,eol:¬,trail:-
