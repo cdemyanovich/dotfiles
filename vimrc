@@ -36,10 +36,8 @@ set gdefault                    " replace all occurrences on line instead of onl
 let mapleader=","
 
 " custom filetype mappings
-au BufRead,BufNewFile *.rabl setfiletype ruby
 au BufRead,BufNewFile Guardfile setfiletype ruby
 au BufRead,BufNewFile Capfile setfiletype ruby
-au BufRead,BufNewFile *.thor setfiletype ruby
 au BufRead,BufNewFile *.hiccup setfiletype clojure
 
 let g:sql_type_default = 'postgresql'
