@@ -28,7 +28,6 @@ set backspace=indent,eol,start  " backspace through everything in insert mode
 "" Searching
 set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
-set gdefault                    " replace all occurrences on line instead of only first
 
 " use comma as <Leader> key instead of backslash
 let mapleader=","
