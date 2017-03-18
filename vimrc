@@ -98,9 +98,6 @@ set showcmd
 " Automatically hide altered buffers when navigating away from them
 set hidden
 
-" Default indentation
-set ts=2 sts=2 sw=2 expandtab
-
 set linespace=4
 
 " provide some context when editing
