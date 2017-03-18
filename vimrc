@@ -10,9 +10,7 @@ set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
 
-" let g:solarized_termcolors=256
 set background=dark
-" colorscheme solarized
 
 " Access colors present in 256 colorspace
 " See also: https://github.com/chriskempson/base16-iterm2
