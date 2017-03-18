@@ -98,8 +98,6 @@ set showcmd
 " Automatically hide altered buffers when navigating away from them
 set hidden
 
-set linespace=4
-
 " provide some context when editing
 set scrolloff=3
 
