@@ -10,8 +10,6 @@ set encoding=utf-8
 set showcmd                     " display incomplete commands
 filetype plugin indent on       " load file type plugins + indentation
 
-set background=dark
-
 " Access colors present in 256 colorspace
 " See also: https://github.com/chriskempson/base16-iterm2
 let base16colorspace=256
