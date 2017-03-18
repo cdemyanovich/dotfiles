@@ -8,6 +8,7 @@ set nocompatible                " choose no compatibility with legacy vi
 syntax enable
 set encoding=utf-8
 set showcmd                     " display incomplete commands
+set autowrite                   " Automatically :write before running commands
 filetype plugin indent on       " load file type plugins + indentation
 
 " Access colors present in 256 colorspace
