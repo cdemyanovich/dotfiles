@@ -14,10 +14,10 @@ set laststatus=2                " always show status line
 
 filetype plugin indent on       " load file type plugins + indentation
 
-" Access colors present in 256 colorspace
-" See also: https://github.com/chriskempson/base16-iterm2
-let base16colorspace=256
-colorscheme base16-default-dark
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
 
 "" Whitespace
 set nowrap                      " don't wrap lines
