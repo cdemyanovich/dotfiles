@@ -12,5 +12,8 @@ Plug 'scrooloose/nerdtree'
 " Git
 Plug 'tpope/vim-fugitive'
 
+" Elixir
+Plug 'elixir-editors/vim-elixir'
+
 " Initialize plugin system
 call plug#end()
