@@ -1,8 +1,12 @@
-[color]
-	ui = true
 [user]
 	name = Craig Demyanovich
-	email = craig@8thlight.com
+	email = cdemyanovich@gmail.com
+[includeIf "gitdir/i:~/work/"]
+  path = ~/work/.gitconfig
+[includeIf "gitdir/i:~/work/groupon/"]
+  path = ~/work/groupon/.gitconfig
+[color]
+	ui = true
 [alias]
 	st = status
 	co = checkout
@@ -26,3 +30,8 @@
 	autosetuprebase = always
 [rerere]
 	enabled = 0
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
