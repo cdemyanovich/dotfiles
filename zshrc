@@ -111,4 +111,4 @@ eval "$(rbenv init -)"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # kubectl auto-complete
-[[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)
+[[ /opt/homebrew/bin/kubectl ]] && source <(kubectl completion zsh)
