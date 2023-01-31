@@ -106,7 +106,7 @@ alias bx="bundle exec"
 export PATH="$HOME/bin:$(brew --prefix)/opt/mysql@5.7/bin:$PATH"
 
 # Load rbenv automatically. See: https://github.com/rbenv/rbenv.
-eval "$(rbenv init -)"
+eval "$(rbenv init - zsh)"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
