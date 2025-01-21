@@ -5,6 +5,8 @@
   path = ~/work/.gitconfig
 [includeIf "gitdir/i:~/work/groupon/"]
   path = ~/work/groupon/.gitconfig
+[includeIf "gitdir/i:~/work/ticketmaster/"]
+  path = ~/work/ticketmaster/.gitconfig
 [color]
 	ui = true
 [alias]
