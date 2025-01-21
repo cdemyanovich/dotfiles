@@ -107,5 +107,9 @@ export PATH="$HOME/bin:$PATH"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# kubectl auto-complete
-[[ /opt/homebrew/bin/kubectl ]] && source <(kubectl completion zsh)
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+eval "$(direnv hook zsh)"
+
+source /Users/cdemyanovich/.config/op/plugins.sh
