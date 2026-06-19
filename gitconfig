@@ -17,9 +17,6 @@
 	up = !"say git up git up git up and jump around"
 	br = branch
 	find = grep --break --heading --line-number --ignore-case
-[gui]
-	fontui = -family \"Lucida Grande\" -size 14 -weight normal -slant roman -underline 0 -overstrike 0
-	fontdiff = -family Courier -size 12 -weight normal -slant roman -underline 0 -overstrike 0
 [push]
 	default = current
 [github]
