@@ -119,3 +119,8 @@ export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$HOME/bin:$PATH"
 eval "$(direnv hook zsh)"
 
 source /Users/cdemyanovich/.config/op/plugins.sh
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/cdemyanovich/.lmstudio/bin"
+# End of LM Studio CLI section
+
