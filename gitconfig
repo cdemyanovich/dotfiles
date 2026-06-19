@@ -44,3 +44,5 @@
 	colorMoved = plain
 	mnemonicPrefix = true
 	renames = true
+[commit]
+	verbose = true
