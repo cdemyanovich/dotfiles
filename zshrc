@@ -111,10 +111,10 @@ if [[ `uname` == Darwin ]]; then
 	alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
 fi
 
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$HOME/bin:$PATH"
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-
-. /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 eval "$(direnv hook zsh)"
 
