@@ -1,11 +1,10 @@
 [alias]
-	st = status
-	co = checkout
-	ci = commit
-	del = !"git status | grep deleted | cut -d' ' -f 5 | xargs git rm 2> /dev/null"
-	up = !"say git up git up git up and jump around"
 	br = branch
+	ci = commit
+	co = checkout
+	del = !"git status | grep deleted | cut -d' ' -f 5 | xargs git rm 2> /dev/null"
 	find = grep --break --heading --line-number --ignore-case
+	st = status
 [branch]
 	autosetuprebase = always
 	sort = -committerdate
