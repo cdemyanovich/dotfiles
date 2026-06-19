@@ -29,7 +29,7 @@
 	autosetuprebase = always
 	sort = -committerdate
 [rerere]
-	enabled = 0
+	enabled = false
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
