@@ -106,7 +106,10 @@ export EDITOR="$VISUAL"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias bx="bundle exec"
 
-export PATH="$HOME/bin:$PATH"
+# See: https://joshtronic.com/2022/09/18/generating-lowercase-uuids-with-uuidgen-on-macos/
+if [[ `uname` == Darwin ]]; then
+	alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
+fi
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
