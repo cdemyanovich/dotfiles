@@ -2,3 +2,5 @@
 *.sw[mnop]
 .idea
 tags
+
+**/.claude/settings.local.json
