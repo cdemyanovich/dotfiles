@@ -7,8 +7,6 @@
   path = ~/work/groupon/.gitconfig
 [includeIf "gitdir/i:~/work/ticketmaster/"]
   path = ~/work/ticketmaster/.gitconfig
-[color]
-	ui = true
 [alias]
 	st = status
 	co = checkout
