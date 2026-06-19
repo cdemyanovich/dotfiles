@@ -34,3 +34,5 @@
 	required = true
 [fetch]
 	prune = true
+	pruneTags = true
+	all = true
