@@ -1,12 +1,3 @@
-[user]
-	name = Craig Demyanovich
-	email = cdemyanovich@gmail.com
-[includeIf "gitdir/i:~/work/"]
-  path = ~/work/.gitconfig
-[includeIf "gitdir/i:~/work/groupon/"]
-  path = ~/work/groupon/.gitconfig
-[includeIf "gitdir/i:~/work/ticketmaster/"]
-  path = ~/work/ticketmaster/.gitconfig
 [alias]
 	st = status
 	co = checkout
@@ -15,38 +6,47 @@
 	up = !"say git up git up git up and jump around"
 	br = branch
 	find = grep --break --heading --line-number --ignore-case
-[push]
-	default = current
-	autoSetupRemote = true
-	followTags = true
-[github]
-	user = cdemyanovich
-[help]
-        autocorrect = prompt
-[core]
-        excludesfile = ~/.gitignore
 [branch]
 	autosetuprebase = always
 	sort = -committerdate
-[rerere]
-	enabled = false
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
-[fetch]
-	prune = true
-	pruneTags = true
-	all = true
+[commit]
+	verbose = true
+[core]
+        excludesfile = ~/.gitignore
 [diff]
 	algorithm = histogram
 	colorMoved = plain
 	mnemonicPrefix = true
 	renames = true
-[commit]
-	verbose = true
+[github]
+	user = cdemyanovich
+[fetch]
+	all = true
+	prune = true
+	pruneTags = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[help]
+        autocorrect = prompt
 [merge]
 	conflictstyle = zdiff3
 [pull]
 	rebase = true
+[push]
+	autoSetupRemote = true
+	default = current
+	followTags = true
+[rerere]
+	enabled = false
+[user]
+	email = cdemyanovich@gmail.com
+	name = Craig Demyanovich
+[includeIf "gitdir/i:~/work/"]
+  path = ~/work/.gitconfig
+[includeIf "gitdir/i:~/work/groupon/"]
+  path = ~/work/groupon/.gitconfig
+[includeIf "gitdir/i:~/work/ticketmaster/"]
+  path = ~/work/ticketmaster/.gitconfig
