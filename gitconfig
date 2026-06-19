@@ -17,6 +17,8 @@
 	find = grep --break --heading --line-number --ignore-case
 [push]
 	default = current
+	autoSetupRemote = true
+	followTags = true
 [github]
 	user = cdemyanovich
 [help]
