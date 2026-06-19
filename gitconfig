@@ -25,6 +25,7 @@
         excludesfile = ~/.gitignore
 [branch]
 	autosetuprebase = always
+	sort = -committerdate
 [rerere]
 	enabled = 0
 [filter "lfs"]
