@@ -20,7 +20,7 @@
 [github]
 	user = cdemyanovich
 [help]
-        autocorrect = -1
+        autocorrect = prompt
 [core]
         excludesfile = ~/.gitignore
 [branch]
